@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace DsAlgos
 {
-    class ArrayList<T>
+    class SuperArray<T>
     {
         protected T[] arr;
         protected long _length = 0;
         protected long _size = 0;
 
-        public ArrayList(T[] arr)
+        public SuperArray(T[] arr)
         {
             // initialize ArrayList by making object array double the size of the initializing array
             int initArrLen = (arr.Length > 0) ? arr.Length : 1;
